@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pavan Kumar | Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f2e8;
+      --paper: #fff;
+      --text: #1f1f1f;
+      --muted: #5c5c5c;
+      --accent: #0f766e;
+      --line: #e5d8c3;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Space Grotesk", sans-serif;
+      background: linear-gradient(160deg, #f6f0e7 0%, #fffaf1 100%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .resume {
+      width: min(860px, 96vw);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
+    }
+
+    h1,
+    h2 {
+      font-family: "Playfair Display", serif;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      margin-bottom: 0.35rem;
+    }
+
+    .role {
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+    }
+
+    .contact {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1rem;
+    }
+
+    section {
+      margin-top: 1.4rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1rem;
+      color: #303030;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 1.8rem;
+      color: #fff;
+      background: var(--accent);
+      padding: 0.65rem 1rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="resume">
+    <h1>Pavan Kumar</h1>
+    <p class="role">Frontend Developer (Beginner)</p>
+    <p class="contact">
+      India | <a href="mailto:DIGIBHEM.dev@gmail.com">DIGIBHEM.dev@gmail.com</a> |
+      <a href="tel:+919876543210">+91 98765 43210</a>
+    </p>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        Motivated frontend learner focused on building responsive and user-friendly websites with strong
+        fundamentals in HTML and CSS. Interested in clean UI design, accessibility, and practical web
+        projects.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>HTML5: semantic structure, forms, links, and accessibility basics</li>
+        <li>CSS3: Flexbox, Grid, responsive layouts, transitions, and typography</li>
+        <li>Tools: VS Code, browser developer tools, GitHub basics</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Startup Landing Page: responsive hero section, feature cards, and call-to-action layout</li>
+        <li>Recipe Collection Website: content-first design with reusable section components</li>
+        <li>Blog Homepage UI: article grid layout with category labels and clean typography</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>Self-learning web development through project-based practice and documentation.</p>
+    </section>
+
+    <a class="back" href="index.html">Back to Portfolio</a>
+  </main>
+</body>
+</html>

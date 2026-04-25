@@ -1,0 +1,20 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#115E59"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 180) rotate(48) scale(430 390)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="1100" rx="54" fill="url(#bg)"/>
+  <rect width="900" height="1100" rx="54" fill="url(#shine)"/>
+
+  <circle cx="450" cy="430" r="185" fill="rgba(255,255,255,0.26)"/>
+  <path d="M450 650C318 650 208 751 185 880C181 903 198 924 221 924H679C702 924 719 903 715 880C692 751 582 650 450 650Z" fill="rgba(255,255,255,0.26)"/>
+
+  <text x="50%" y="1000" text-anchor="middle" fill="white" font-size="74" font-family="'Space Grotesk', sans-serif" opacity="0.9">Your Photo Here</text>
+</svg>
